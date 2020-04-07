@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>
+		Three.js Multiplayer Client
+	</title>
+
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<!--Scoket.io-->
+	<script src="js/socket.io.js"></script>
+
+	<!--Client Side CSS-->
+	<link rel="stylesheet" href="css/client.css" />
+	<script src="js/libs/three.min.js"></script>
+	<script src="js/libs/firstPersonControls.js"></script>
+	<script src="js/libs/playerControls.js"></script>
+	<!-- <script src="js/libs/OBJLoader.js"></script> -->
+	<script src="js/libs/improvedNoise.js"></script>
+	<script src="js/libs/socket.io.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.sound.min.js"></script>
+
+
+</head>
+
+<body style="background: linear-gradient(#000000, #333 50%, #442233 75%, #000000 75%);">
+
+	<!-- WebGL context -->
+
+	<div id="gl_context"></div>
+
+
+
+
+	<!-- Client side JS bundle -->
+	<!-- <script src="js/bundle.js"></script> -->
+	<script src="js/scene.js"></script>
+	<script src="js/index.js"></script>
+	local video:
+	<br />
+	<video autoplay muted class="local-video" id="local-video" width="80" height="60"></video>
+	<br />
+	remote video(s):
+	<br />
+
+
+</body>
+
+</html>
