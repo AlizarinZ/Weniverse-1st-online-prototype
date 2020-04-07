@@ -14,3 +14,10 @@ const authToken = "ENTER YOURS from https://www.twilio.com/";
 </code>
 
 you can recieve them from twillio by creating a project and extending its info - https://www.twilio.com/
+
+This was developed with instruction and source code from Aidan Nelson
+https://github.com/AidanNelson/YORB2020
+Who borrowed code from:
+https://github.com/juniorxsound/THREE.Multiplayer
+https://github.com/Miczeq22/simple-chat-app
+https://github.com/zacharystenger/three-js-video-chat
