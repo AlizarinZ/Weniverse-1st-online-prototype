@@ -6,8 +6,11 @@ This 1st iteration is really a novice experimenting with coding in the 3D space.
 https://weniverse.herokuapp.com/
 
 To use this code you'll need to add your ICE credentials to the server.js file. Look for this code and replace it with credentials. 
+
+<code>
 // insecure method for testing:
 const accountSid = "ENTER YOURS from https://www.twilio.com/"; 
 const authToken = "ENTER YOURS from https://www.twilio.com/";
+</code>
 
 you can recieve them from twillio by creating a project and extending its info - https://www.twilio.com/
